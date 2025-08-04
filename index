@@ -3,117 +3,137 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Partner With Us | Booking Centre</title>
+  <title>Our Services | Booking Centre</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Inter', sans-serif;
       margin: 0;
-      background: #f9f9f9;
+      font-family: 'Inter', sans-serif;
+      background: #f5f5f5;
       color: #333;
     }
     header {
       background: white;
-      color: green;
       padding: 2rem;
       text-align: center;
+      color: green;
     }
     header h1 {
-      font-size: 2.5rem;
       margin: 0;
+      font-size: 2.5rem;
     }
     main {
-      max-width: 1000px;
+      max-width: 1100px;
       margin: 2rem auto;
-      padding: 2rem;
+      padding: 1rem;
+    }
+    .service-category {
       background: white;
+      margin-bottom: 1.5rem;
       border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     }
-    section {
-      margin-bottom: 2rem;
-    }
-    h2 {
+    .service-category h2 {
       color: green;
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
     }
-    p, li {
-      font-size: 1rem;
+    .service-category ul {
+      padding-left: 1.2rem;
     }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    ul li::before {
-      content: "\2714\0020";
-      color: green;
-    }
-    .cta {
-      text-align: center;
-      margin-top: 2rem;
-    }
-    .cta a {
-      display: inline-block;
-      padding: 1rem 2rem;
-      background-color: #0a9396;
-      color: white;
-      font-weight: 600;
-      border-radius: 5px;
-      text-decoration: none;
-      transition: background-color 0.3s;
-    }
-    .cta a:hover {
-      background-color: #00797a;
+    .service-category li {
+      margin-bottom: 0.4rem;
+      line-height: 1.6;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Partner With Us</h1>
-    <p>Join Kenya’s fastest-growing all-in-one booking ecosystem</p>
+    <h1>Our Services</h1>
+    <p>Explore the wide range of services you can book or offer with Booking Centre</p>
   </header>
 
   <main>
-    <section>
-      <h2>Why Partner with Booking Centre?</h2>
-      <p>We are on a mission to digitize Kenya’s service industry — and we want you to be part of it! Whether you’re a business, freelancer, or professional service provider, Booking Centre provides a platform where customers can find and book your services instantly.</p>
+    <section class="service-category">
+      <h2>Travel & Transport</h2>
       <ul>
-        <li>100% Free website and app for your business</li>
-        <li>Integrated into our central booking system</li>
-        <li>Increased exposure and visibility</li>
-        <li>Zero commissions or monthly fees</li>
-        <li>Real-time bookings and customer management</li>
-        <li>Marketing and promotional support included</li>
+        <li>Bus Booking</li>
+        <li>Flight Booking</li>
+        <li>Train Booking</li>
+        <li>Car Rentals</li>
+        <li>Helicopter Charters</li>
       </ul>
     </section>
 
-    <section>
-      <h2>Who Can Partner?</h2>
-      <p>If your service can be booked, we want you onboard! Ideal for:</p>
+    <section class="service-category">
+      <h2>Hospitality</h2>
       <ul>
-        <li>Hotels, Restaurants & Resorts</li>
-        <li>Transport services (Buses, Flights, Trains, Car Rentals)</li>
-        <li>Healthcare providers and professionals</li>
-        <li>Freelancers: DJs, Photographers, Artists</li>
-        <li>Tutors, Consultants, Legal Advisors</li>
-        <li>Delivery, Agritech, Tourism & more</li>
+        <li>Hotel Booking</li>
+        <li>Restaurant Reservations</li>
+        <li>Affordable Housing Booking</li>
       </ul>
     </section>
 
-    <section>
-      <h2>How to Get Started</h2>
-      <ol>
-        <li>Visit <a href="https://www.bookingcentre.site" target="_blank">www.bookingcentre.site</a></li>
-        <li>Click “Register” or “Get Started for Free”</li>
-        <li>Fill out your service details</li>
-        <li>We build your platform — FREE!</li>
-      </ol>
+    <section class="service-category">
+      <h2>Health & Wellness</h2>
+      <ul>
+        <li>Hospital Appointments</li>
+        <li>Ambulance Services</li>
+      </ul>
     </section>
 
-    <div class="cta">
-      <a href="https://www.bookingcentre.site" target="_blank">Become a Partner – Join Now</a>
-    </div>
+    <section class="service-category">
+      <h2>Events & Entertainment</h2>
+      <ul>
+        <li>Event Booking</li>
+        <li>MCs / DJs / Event Hosts</li>
+        <li>Artists & Performers</li>
+        <li>Photographers & Videographers</li>
+      </ul>
+    </section>
+
+    <section class="service-category">
+      <h2>Education & Coaching</h2>
+      <ul>
+        <li>Private Tutors</li>
+        <li>Online Courses</li>
+        <li>Career Coaching & Mentorship</li>
+      </ul>
+    </section>
+
+    <section class="service-category">
+      <h2>Consultation & Professional Services</h2>
+      <ul>
+        <li>Legal Consultation</li>
+        <li>Study Abroad Agents</li>
+        <li>Influencers & Content Creators</li>
+      </ul>
+    </section>
+
+    <section class="service-category">
+      <h2>Family & Lifestyle</h2>
+      <ul>
+        <li>Babysitting & Childcare</li>
+        <li>Delivery Services</li>
+      </ul>
+    </section>
+
+    <section class="service-category">
+      <h2>Tourism & Nature</h2>
+      <ul>
+        <li>Tour Guide Booking</li>
+        <li>Tourist Attractions</li>
+        <li>Game Parks & Game Reserves</li>
+      </ul>
+    </section>
+
+    <section class="service-category">
+      <h2>Agritech</h2>
+      <ul>
+        <li>Agritech Services</li>
+      </ul>
+    </section>
   </main>
 </body>
 </html>
